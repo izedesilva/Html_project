@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+ <title> Certificate of Registration </title>
+	<img src = "De Silva_Ize Josh Zier\cctlogo.jpeg" style = "float: left" width = "100" height = "100" >
+    <img src = "D:\BSIT 3-1\ITEC87\De Silva_Ize Josh Zier\cctlogo.jpeg" style = "float: right" width = "100" height = "100">
+  <style>
+	body{
+	 font-family; Arial;
+	 margin: 0;
+	 padding: 0;
+	}
+	container{
+	width: 1300px;
+	margin: 20px auto;
+	}
+	header{
+	 text-align: center;
+	 margin: 10;
+	 color: maroon;
+	}
+	address{
+	 text-align: center;
+	}
+	p {
+	margin: 0;
+	padding: 10;
+	text-align: center;
+	color: maroon;
+	font-size: 13;
+	}
+	img {
+	padding: 30px;
+	}
+	u {
+	color: black;
+	}
+	th	{
+	text-align: center;
+	background-color: maroon;
+	color: white;
+	margin: 20px;
+	}
+	table {
+	margin: 20px;
+	border-color: maroon;
+	}
+	tdhead {
+	color: maroon;
+	}
+ </style>
+ </head>
+ 
+ <body> 
+<div class = "container">
+	<div class = "header">
+	<br>
+	<br>
+	<p> City of Tagaytay </p>
+	<p><b> CITY COLLEGE OF TAGAYTAY</b></p>
+	<p> Akle St., Kaybagal South, Tagaytay City </p>
+	<p>Telephone No.: (046) 483-0470 / (046)483 067</p>
+    <br>
+	<p><b>CERTIFICATE OF REGISTRATION</b></p>
+	<p><u>A.Y. 2023-2024, 2nd Semester</u></p>	
+	<br>
+	<table border ="1", width="1400", style ="border-collapse: collapse; margin-bottom: 0">
+	<tr>
+	<th> REGISTRATION INFORMATION </th> </tr>
+	<tr>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DATE: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	3/26/24 <br><br>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NAME: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <B> DE SILVA, IZE JOSH ZIER P. </B> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	STUDENT NUMBER: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2021010453 <br> <br>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp PROGRAM: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Bachelor of Science in Information Technology &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp YEAR LEVEL: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 3 <br> <br>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp MAJOR: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp None &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp REGISTRATION STATUS: &nbsp&nbsp&nbsp&nbsp&nbsp regular
+	</td> </tr>
+
+	<table border ="1", width="1400" style ="border-collapse: collapse; margin-top: 0; margin-bottom: 0;">
+	<tr>
+	<td align = center> Section </td>
+	<td align = center> Course Code </td>
+	<td align = center> Course Description </td>
+	<td align = center> Units </td>
+	<td align = center> Schedule </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC42 </td>
+	<td style = "border-bottom: hidden" align = "center"> Quantitative Methods(including Model and Simulation) </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 3:00-6:00 WED </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC57 </td>
+	<td style = "border-bottom: hidden" align = "center"> Informative Assurrance and Security 1 </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 7:30-10:30 MON, 2:00-4:00 MON </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC60 </td>
+	<td style = "border-bottom: hidden" align = "center"> Social Issues and Professional Issues  </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 10:30-1:30 THURS </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC63 </td>
+	<td style = "border-bottom: hidden" align = "center"> Application Development and Emerging Technologies  </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 10:00-1:30 WED, 7:30-9:30 SAT </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC76 </td>
+	<td style = "border-bottom: hidden" align = "center"> Business Communication  </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 10:30-2:00 SAT </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC84 </td>
+	<td style = "border-bottom: hidden" align = "center"> Fundamentals of Business Outsourcing  </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 2:00-4:00 TUE, 2:00-5:00 THURS </td>
+	</tr>
+	<tr>
+	<td style = "border-bottom: hidden" align = "center"> BSIT 3-1 </td>
+	<td style = "border-bottom: hidden" align = "center"> ITEC87 </td>
+	<td style = "border-bottom: hidden" align = "center"> Web System & Technologies  </td>
+	<td style = "border-bottom: hidden" align = "center"> 3 </td>
+	<td style = "border-bottom: hidden" align = "center"> 10:30-1:30 TUE, 8:30-10:30 THURS </td>
+	</tr>
+	<tr>
+	<td align = "center"> BSIT 3-1 </td>
+	<td align = "center"> MERE1 </td>
+	<td align = "center"> Methods of Research  </td>
+	<td align = "center"> 3 </td>
+	<td align = "center">  10:30-1:30 MON </td>
+	</tr>
+	<tr>
+    <td style="border-right: hidden; background-color: #F5DEB3; color: maroon; padding-left: 40px;"> SUBJECTS: </td>
+    <td style="border-right: hidden; background-color: #F5DEB3; color: maroon; padding-left: 40px;"> 8 </td>
+    <td style="border-right: hidden; background-color: #F5DEB3; color: maroon; padding-left: 40px;"> LEC UNITS: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 23</td>
+    <td style="border-right: hidden; background-color: #F5DEB3; color: maroon; padding-left: 40px;"> LAB UNIT: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 4</td>
+	<td style="background-color: #F5DEB3; color: maroon; padding-left: 40Px;"> TOTAL CREDITS: &nbsp&nbsp&nbsp&nbsp&nbsp 27</td>
+    </tr>
+	</table>
+	
+	<table border ="1", align = center, width="1400", cellpadding= "0", cellspacing ="0" style = "border-collapse: collapse; margin-top: 0;  margin-bottom: 0;">
+	<tr>
+    <th>BILLING INFORMATION</th></tr>
+	</table>
+	
+	<table border="1" width= "1400" style=" border-collapse: collapse; margin-top:0;">
+    <tr>
+    <td style="color: maroon; width: 50%; border-bottom: hidden; ">SCHOLARSHIP GRANT:</td>
+    <td style="color: maroon; width: 40%; border-right: hidden;">PAYMENT DETAILS:</td>
+    <td style="border-color: maroon; width: 20%;"></td>
+    </tr>
+    <tr>
+    <td style="text-align: center;">FREE HIGHER EDUCATION PROGRAM (R.A 10931)</td>
+    <td style="color: maroon;border-right: hidden;"> &nbsp&nbsp TERMS OF PAYMENT:</td>
+    <td style=" border-bottom: hidden;"></td>
+    </tr>
+    </table>
+	
+    <table border="1", width= "1400" style="border-collapse: collapse;">
+    <tr>
+    <td style="color: maroon; width: 20%; border-top: hidden; border-color: maroon;"> ASSESSMENT OF FEES:</td>
+    <td style="border-bottom: hidden;width: 30%; margin-top: 10;"></td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;">First Payment:</td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" >2,065.00</td>   
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;" >Tuition Fee:</td>
+    <td style="border-bottom: hidden;width: 30%;">3,675.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;">Second Payment:</td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" >2,065.50</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: brown;width: 20%;border-top: hidden;">Misc Fee:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">880.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;">Third Payment:</td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;">2,065.50</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: brown;width: 20%;border-top: hidden;">LD. Fee:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">0.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;">Fourth Payment:</td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" >2,065.50</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">Laboratory Fees:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">552.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" ></td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">SRF:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">1,700.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;"></td>
+    </tr>
+    <tr>
+	<td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">SFDF:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">1350.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;"></td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">Atheltic Fee:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">1350.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" ></td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">CSG</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">0.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;"></td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden; color: maroon;width: 20%;border-top: hidden;">Other fines:</td>
+    <td style="border-bottom: hidden;width: 30%;border-top: hidden;">105.00</td>
+    <td style="width: 42%;border-right: hidden;border-bottom: hidden;padding-left: 10px;border-top: hidden;"></td>
+    <td style="border-bottom: hidden;text-align: right;padding-right: 20px;border-top: hidden;" ></td>
+    </tr>   
+    </table>
+	
+    <table border="1", width="1400" style=" border-collapse: collapse;">
+    <tr>
+    <td style="border-bottom: hidden;border-top: hidden;"></td>
+    <td style="width:30%;border-bottom: hidden;border-top: hidden;"></td>
+    <td style="width:50%;font-weight: bold;border-bottom: hidden;text-align: center;">RULES ON FEES</td>
+	</tr>
+    <tr>
+    <td style="border-bottom: hidden;"></td>
+    <td style="width:30%;border-bottom: hidden;"></td>
+    <td style="width:50%;color: maroon;border-bottom: hidden;padding-left: 5px;">TERMS OF PAYMENT</td>
+    </tr>
+    <tr>
+    <td style=""></td>
+    <td style="width:30%;"></td>
+    <td style="width:50%;color: maroon;border-bottom: hidden;padding-left: 10px;">1. All fees are payable in cash upon enrollment or by installment basis. For the installment plan agreement are as follows:</td>
+    </tr>
+    <tr>
+    <td  style="color: maroon;">TOTAL:</td>
+    <td style="width:30%;text-align: right;">8,262.00 &nbsp&nbsp&nbsp</td>
+    <td  style="width:50%;color: maroon;border-bottom: hidden;padding-left: 20px;">a.Twenty Five (25%) of the total fees shall collected upon enrollment</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden;"></td>
+    <td style="width:30%;text-align: right;border-bottom: hidden;"></td>
+    <td style="width:50%;color: maroon; border-bottom: hidden;padding-left: 20px;">b.Remaining seventy five percent(75%), will be divided into each terms one week before the examination.</td>
+	</tr>
+	<tr>
+    <td style="border-bottom: hidden;"></td>
+    <td style="width:30%;text-align: right;border-bottom: hidden;"></td>
+    <td style="width:50%;color: maroon;border-bottom: hidden;padding-left: 10px;">2.Students who paid in cash basis are entitled for a "refund" or "withdraw" policy within a month (30 days)
+	after the date of registration under the following conditions:</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden;"></td>
+    <td style="width:30%;text-align: right;border-bottom: hidden;"></td>
+    <td style="width:50%;color: maroon;border-bottom: hidden;padding-left: 20px;">a.80% of the amount paid when he withdraws withtin the first week after the registration, whether he has attended class or not.</td>
+    </tr>
+    <tr>
+    <td style=""></td>
+    <td style="width:30%;text-align: right;"></td>
+    <td style="width:50%;color:maroon;border-bottom: hidden;padding-left: 20px;">b.50% of the amount paid when he withdraws within a second, third, fourth week 
+    after the registration, whether he has attended class or not.</td>
+    </tr>
+    <tr>
+    <td style="border-bottom: hidden;color: maroon;">ASSESSED BY:</td>
+	<td style="width:30%;text-align: right; font-weight: bold;border-bottom: hidden;">Ms. Elisa G. Chacon</td>
+    <td style="width:50%;color: maroon;text-align: left;border-bottom: hidden;padding-left: 20px;">c.No refund will be made 30 days after registration.</td>
+    </tr>
+    <tr>
+    <td style=""></td>
+    <td style="width:30%;text-align: right;padding-right: 10px;"> Cashier <br></td>
+    <td style="color: maroon;width:50%;"></td>
+	</tr>
+	</table>
+	
+	<table border="1", width="1400" height="100" style=" border-collapse: collapse; margin-top: 10;">
+	<tr>
+    <td style= "color: maroon; width: 50; border-color: maroon; border-right: hidden;"> &nbsp&nbsp&nbsp Verified by: </td>
+    <td style= "color: maroon; width: 40; border-color: maroon;">  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp _______________________ 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	Approved by: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<u style="color: maroon"><b> Ms. Hazel M. Garcia  </u></b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp School Dean	</td>
+    </tr>
+	</table>
+	
+</body>
+</div>
+</div>
+	
+</body>
+
+
+</html>
