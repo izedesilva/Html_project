@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('MAIN-BG.jpg');
+            background-size: cover;
+            background-color: #f5f5dc; /* Light Brown or Cream */
+        }
+        nav {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333; /* Dark Gray */
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #555; /* Light Gray on Hover */
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+            color: #333; /* Dark Gray */
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#" onclick="toggleSection('clothes')">Clothes</a>
+    <a href="#" onclick="toggleSection('food')">Food</a>
+    <a href="#" onclick="toggleSection('about')">About Us</a>
+    <a href="#" onclick="toggleSection('contact')">Contact Us</a>
+</nav>
+
+<section id="clothes" class="active">
+    <h2>Clothes</h2>
+    <!-- Your clothes content here -->
+</section>
+
+<section id="food">
+    <h2>Food</h2>
+    <!-- Your food content here -->
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <!-- Your about us content here -->
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <!-- Your contact us content here -->
+</section>
+
+<script>
+    function toggleSection(target) {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            if (section.id === target) {
+                section.classList.add('active');
+            } else {
+                section.classList.remove('active');
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
