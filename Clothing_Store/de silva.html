@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sari-Sari Store</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            color: #333; 
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #dcc8ab;
+        }
+        .logo {
+            flex: 1; 
+        }
+        .text-center {
+            flex: 400;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: "Times New Roman", Times, serif;
+            color: #766049;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .categories {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .categories h2 {
+            width: 100%; 
+        }
+
+        .categories button {
+            margin: 5px;
+            padding: 50px;
+            height: 250px;
+            background-color: #766049; 
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        .categories button:hover {
+            background-color: #222; 
+            transform: translateY(-5px); 
+        }
+
+        #items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .item {
+            width: 200px;
+            background-color: #fff; 
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: translateY(-5px); 
+        }
+
+        #receipt {
+            background-color: #dcc8ab;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;
+        }
+
+        #receipt:hover {
+            transform: translateY(-5px); 
+        }
+
+        #receipt-items {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #receipt-items li {
+            margin-bottom: 5px;
+        }
+
+        #receipt-items li:last-child {
+            margin-bottom: 0;
+        }
+
+        .category-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .item-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        #stock-panel {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #dcc8ab;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        #stock-panel:hover {
+            transform: translateY(-5px); 
+        }
+
+        #stock-panel input[type="number"] {
+            width: 60px;
+            margin-right: 10px;
+        }
+
+        #stock-panel button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #766049; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        #stock-panel button:hover {
+            background-color: #222; 
+            transform: translateY(-5px); 
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        #category-select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.png" alt="logo" width="150px">
+        </div>
+        <div class="text-center">
+            Clothing Store
+        </div>
+        <button onclick="toggleStockPanel()">Manage Stocks</button>
+    </header>
+    <div class="container">
+        <div class="categories">
+            <h2>Categories</h2>
+            <button onclick="showItems('jeans')">
+                <img src="jeans_cover.jpg" alt="jeans_cover" class="category-img"><br>
+                Jeans
+            </button>
+            <button onclick="showItems('tshirts')">
+                <img src="shirt_cover.jpg" alt="shirt_cover" class="category-img"><br>
+                T-Shirts
+            </button>
+            <button onclick="showItems('perfumes')">
+                <img src="perf_cover.jpg" alt="perf_cover" class="category-img"><br>
+                Perfumes
+            </button>
+            <button onclick="showItems('sando')">
+                <img src="sando_cover.jpg" alt="sando_cover" class="category-img"><br>
+                Sando
+            </button>
+            <button onclick="showItems('toys')">
+                <img src="toy_cover.jpg" alt="toy_cover" class="category-img"><br>
+                Toys
+            </button>
+			
+			<a href="E:\De Silva_HTML_Project\index.html" class="btn btn-primary" style="background-color: brown; color: white">Back to Home</a>
+        </div>
+        <div id="items"></div>
+        <div id="receipt" style="display: none;">
+            <h2>Receipt</h2>
+            <ul id="receipt-items"></ul>
+            <p>Total: ₱<span id="total">0.00</span></p>
+            <label for="discount">Apply Discount:</label>
+            <select id="discount" onchange="applyDiscount()">
+                <option value="none">None</option>
+                <option value="senior">Senior - 20%</option>
+                <option value="pwd">PWD - 30%</option>
+                <option value="student">Student - 10%</option>
+            </select>
+            <p>Discounted Total: ₱<span id="discounted-total">0.00</span></p>
+        </div>
+    </div>
+
+    <div id="overlay" onclick="toggleStockPanel()"></div>
+    <div id="stock-panel">
+        <h2>Manage Stocks</h2>
+        <select id="category-select" onchange="loadStockItems()">
+            <option value="">Select Category</option>
+            <option value="jeans">Jeans</option>
+            <option value="tshirts">T-Shirts</option>
+            <option value="perfumes">Perfumes</option>
+            <option value="sando">Sando</option>
+            <option value="toys">Toys</option>
+        </select>
+        <div id="stock-items"></div>
+        <button onclick="toggleStockPanel()">Close</button>
+    </div>
+
+    <script>
+        const inventory = {
+            jeans: [
+                { name: "Denim Jeans Men", price: 350, stock: 100, image: "jeans1.jpg" },
+                { name: "Jag Mens Jeans", price: 450, stock: 150, image: "jeans2.jpg" },
+                { name: "Fitted Jeans for Men", price: 300, stock: 200, image: "jeans3.jpg" },
+                { name: "Indigo Jeans for Men", price: 400, stock: 250, image: "jeans4.jpg" }
+            ],
+            tshirts: [
+                { name: "Comfortable T-shirt", price: 300, stock: 100, image: "tshirt1.jpg" },
+                { name: "Black T-Shirt", price: 350, stock: 150, image: "tshirt2.jpg" },
+                { name: "Polo Shirt ", price: 400, stock: 200, image: "tshirt3.jpg" },
+                { name: "Fitted T-Shirt ", price: 450, stock: 250, image: "tshirt4.jpg" }
+            ],
+            perfumes: [
+                { name: "Axe Men", price: 250, stock: 100, image: "perfume1.jpg" },
+                { name: "Royal Men Perfume", price: 450, stock: 150, image: "perfume2.jpg" },
+                { name: "Belo Perfume", price: 500, stock: 200, image: "perfume3.jpg" },
+                { name: "Polo Perfume", price: 900, stock: 250, image: "perfume4.jpg" }
+            ],
+            sando: [
+                { name: "White Sando", price: 150, stock: 100, image: "sando1.jpg" },
+                { name: "Men Sando", price: 200, stock: 150, image: "sando2.jpg" },
+                { name: "Black Sando", price: 220, stock: 200, image: "sando3.jpg" },
+                { name: "Sando", price: 250, stock: 250, image: "sando4.jpg" }
+            ],
+            toys: [
+                { name: "Stuff Toy", price: 250, stock: 100, image: "toy1.jpg" },
+                { name: "Water Gun", price: 150, stock: 150, image: "toy2.jpg" },
+                { name: "Lego SET", price: 650, stock: 200, image: "toy3.jpg" },
+                { name: "Toy Gun", price: 350, stock: 250, image: "toy4.jpg" }
+            ]
+        };
+
+        function showItems(category) {
+            const itemsContainer = document.getElementById("items");
+            itemsContainer.innerHTML = ""; 
+
+            inventory[category].forEach(item => {
+                const itemElement = document.createElement("div");
+                itemElement.classList.add("item");
+                itemElement.innerHTML = `
+                    <h3>${item.name}</h3>
+                    <img src="${item.image}" alt="${item.name}" class="item-img">
+                    <p>Price: ₱${item.price}</p>
+                    <p>Stock: <span id="stock-${item.name}">${item.stock}</span></p>
+                    <label for="${item.name}-quantity">Quantity:</label>
+                    <span id="${item.name}-quantity">0</span>
+                    <button onclick="deductItem('${item.name}')">-</button>
+                    <button onclick="addItem('${item.name}')">+</button>
+                    <button onclick="buyItem('${category}', '${item.name}', ${item.price})">Buy</button>
+                `;
+                itemsContainer.appendChild(itemElement);
+            });
+        }
+
+        function addItem(itemName) {
+            const quantityElement = document.getElementById(`${itemName}-quantity`);
+            const currentQuantity = parseInt(quantityElement.textContent);
+            const updatedQuantity = currentQuantity + 1;
+            quantityElement.textContent = updatedQuantity;
+        }
+
+        function deductItem(itemName) {
+            const quantityElement = document.getElementById(`${itemName}-quantity`);
+            const currentQuantity = parseInt(quantityElement.textContent);
+            if (currentQuantity > 0) {
+                const updatedQuantity = currentQuantity - 1;
+                quantityElement.textContent = updatedQuantity;
+            }
+        }
+
+        function buyItem(category, itemName, price) {
+            const quantity = parseInt(document.getElementById(`${itemName}-quantity`).textContent);
+            if (quantity > 0) {
+                const itemIndex = inventory[category].findIndex(item => item.name === itemName);
+                if (itemIndex !== -1 && inventory[category][itemIndex].stock >= quantity) {
+                    inventory[category][itemIndex].stock -= quantity;
+                    updateStock(itemName, inventory[category][itemIndex].stock);
+                    addToReceipt(itemName, price, quantity);
+                } else {
+                    alert("Not enough stock!");
+                }
+            } else {
+                alert("Please add a quantity.");
+            }
+        }
+
+        function updateStock(itemName, newStock) {
+            document.getElementById(`stock-${itemName}`).textContent = newStock;
+        }
+
+        function addToReceipt(itemName, price, quantity) {
+            const receiptItems = document.getElementById("receipt-items");
+            let existingItem = null;
+
+            Array.from(receiptItems.children).forEach(item => {
+                if (item.textContent.includes(itemName)) {
+                    existingItem = item;
+                    return;
+                }
+            });
+
+            if (existingItem) {
+                const itemDetails = existingItem.textContent.split(" - ");
+                const currentQuantity = parseInt(itemDetails[0].split("x")[1].trim());
+                const newQuantity = currentQuantity + quantity;
+                existingItem.textContent = `${itemName} x${newQuantity} - ₱${price * newQuantity}`;
+            } else {
+                const item = document.createElement("li");
+                item.textContent = `${itemName} x${quantity} - ₱${price * quantity}`;
+                receiptItems.appendChild(item);
+            }
+
+            updateTotal(price * quantity);
+            document.getElementById("receipt").style.display = "block";
+        }
+
+        function updateTotal(price) {
+            const totalElement = document.getElementById("total");
+            const currentTotal = parseFloat(totalElement.textContent); 
+            const newTotal = currentTotal + price;
+            totalElement.textContent = newTotal.toFixed(2);
+            applyDiscount();
+        }
+
+        function applyDiscount() {
+            const discountElement = document.getElementById("discount");
+            const totalElement = document.getElementById("total");
+            const discountedTotalElement = document.getElementById("discounted-total");
+            const total = parseFloat(totalElement.textContent);
+            let discount = 0;
+
+            switch (discountElement.value) {
+                case "senior":
+                    discount = 0.20;
+                    break;
+                case "pwd":
+                    discount = 0.30;
+                    break;
+                case "student":
+                    discount = 0.10;
+                    break;
+                default:
+                    discount = 0;
+            }
+
+            const discountedTotal = total * (1 - discount);
+            discountedTotalElement.textContent = discountedTotal.toFixed(2);
+        }
+
+        function toggleStockPanel() {
+            const stockPanel = document.getElementById("stock-panel");
+            const overlay = document.getElementById("overlay");
+            if (stockPanel.style.display === "none" || stockPanel.style.display === "") {
+                stockPanel.style.display = "block";
+                overlay.style.display = "block";
+                loadStockItems();
+            } else {
+                stockPanel.style.display = "none";
+                overlay.style.display = "none";
+            }
+        }
+
+        function loadStockItems() {
+            const stockItemsContainer = document.getElementById("stock-items");
+            const selectedCategory = document.getElementById("category-select").value;
+            stockItemsContainer.innerHTML = "";
+            
+            if (selectedCategory) {
+                inventory[selectedCategory].forEach(item => {
+                    const itemElement = document.createElement("div");
+                    itemElement.innerHTML = `
+                        <span>${item.name}</span>
+                        <input type="number" id="stock-input-${item.name}" value="${item.stock}" min="0">
+                        <button onclick="updateStockQuantity('${selectedCategory}', '${item.name}')">Update</button>
+                    `;
+                    stockItemsContainer.appendChild(itemElement);
+                });
+            }
+        }
+
+        function updateStockQuantity(category, itemName) {
+    const stockInput = document.getElementById(`stock-input-${itemName}`);
+    const newStock = parseInt(stockInput.value);
+    const itemIndex = inventory[category].findIndex(item => item.name === itemName);
+    
+    if (itemIndex !== -1 && newStock >= 0) {
+        inventory[category][itemIndex].stock = newStock;
+        updateStock(itemName, newStock);
+        alert("Stock updated successfully!");
+    } else {
+        alert("Invalid stock value!");
+    }
+}
+	
+    </script>
+</body>
+</html>

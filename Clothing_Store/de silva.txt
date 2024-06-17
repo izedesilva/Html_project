@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sari-Sari Store</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            color: #333; 
+        }
+
+        header {
+            background-color: #333; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .categories {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .categories h2 {
+            width: 100%; 
+        }
+
+        .categories button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #000; 
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        .categories button:hover {
+            background-color: #222; 
+            transform: translateY(-5px); 
+        }
+
+        #items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .item {
+            width: 200px;
+            background-color: #fff; 
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: translateY(-5px); 
+        }
+
+        #receipt {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;
+        }
+
+        #receipt:hover {
+            transform: translateY(-5px); 
+        }
+
+        #receipt-items {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #receipt-items li {
+            margin-bottom: 5px;
+        }
+
+        #receipt-items li:last-child {
+            margin-bottom: 0;
+        }
+
+        .category-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .item-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        header img {
+            filter: grayscale(100%);
+        }
+       
+        .green {
+            color: #4CAF50; 
+        }
+
+        .blue {
+            color: #2196F3; 
+        }
+
+        .orange {
+            color: #FF9800; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sari-Sari Store</h1>
+        <img src="logo.png" alt="Store Logo">
+    </header>
+    <div class="container">
+        <div class="categories">
+            <h2>Categories</h2>
+            <button onclick="showItems('jeans')">
+                <img src="jeans.jpg" alt="Jeans" class="category-img"><br>
+                Jeans
+            </button>
+            <button onclick="showItems('tshirts')">
+                <img src="tshirts.jpg" alt="T-Shirts" class="category-img"><br>
+                T-Shirts
+            </button>
+            <button onclick="showItems('perfumes')">
+                <img src="perfumes.jpg" alt="Perfumes" class="category-img"><br>
+                Perfumes
+            </button>
+            <button onclick="showItems('sando')">
+                <img src="sando.jpg" alt="Sando" class="category-img"><br>
+                Sando
+            </button>
+            <button onclick="showItems('toys')">
+                <img src="toys.jpg" alt="Toys" class="category-img"><br>
+                Toys
+            </button>
+        </div>
+        <div id="items"></div>
+        <div id="receipt" style="display: none;">
+            <h2>Receipt</h2>
+            <ul id="receipt-items"></ul>
+            <p>Total: ₱
+            <span id="total">0.00</span>
+        </div>
+    </div>
+
+    <script>
+        const inventory = {
+            jeans: [
+                { name: "Jeans 1", price: 20, stock: 10, image: "jeans1.jpg" },
+                { name: "Jeans 2", price: 25, stock: 15, image: "jeans2.jpg" },
+                { name: "Jeans 3", price: 30, stock: 20, image: "jeans3.jpg" },
+                { name: "Jeans 4", price: 35, stock: 25, image: "jeans4.jpg" }
+            ],
+            tshirts: [
+                { name: "T-Shirt 1", price: 10, stock: 10, image: "tshirt1.jpg" },
+                { name: "T-Shirt 2", price: 15, stock: 15, image: "tshirt2.jpg" },
+                { name: "T-Shirt 3", price: 20, stock: 20, image: "tshirt3.jpg" },
+                { name: "T-Shirt 4", price: 25, stock: 25, image: "tshirt4.jpg" }
+            ],
+            perfumes: [
+                { name: "Perfume 1", price: 15, stock: 10, image: "perfume1.jpg" },
+                { name: "Perfume 2", price: 20, stock: 15, image: "perfume2.jpg" },
+                { name: "Perfume 3", price: 25, stock: 20, image: "perfume3.jpg" },
+                { name: "Perfume 4", price: 30, stock: 25, image: "perfume4.jpg" }
+            ],
+            sando: [
+                { name: "Sando 1", price: 5, stock: 10, image: "sando1.jpg" },
+                { name: "Sando 2", price: 7, stock: 15, image: "sando2.jpg" },
+                { name: "Sando 3", price: 8, stock: 20, image: "sando3.jpg" },
+                { name: "Sando 4", price: 10, stock: 25, image: "sando4.jpg" }
+            ],
+            toys: [
+                { name: "Toy 1", price: 3, stock: 10, image: "toy1.jpg" },
+                { name: "Toy 2", price: 5, stock: 15, image: "toy2.jpg" },
+                { name: "Toy 3", price: 8, stock: 20, image: "toy3.jpg" },
+                { name: "Toy 4", price: 10, stock: 25, image: "toy4.jpg" }
+            ]
+        };
+
+        function showItems(category) {
+            const itemsContainer = document.getElementById("items");
+            itemsContainer.innerHTML = ""; // Clear previous items
+
+            inventory[category].forEach(item => {
+                const itemElement = document.createElement("div");
+                itemElement.classList.add("item");
+                itemElement.innerHTML = `
+                    <h3>${item.name}</h3>
+                    <img src="${item.image}" alt="${item.name}" class="item-img">
+                    <p>Price: ₱${item.price}</p>
+                    <p>Stock: <span id="stock-${item.name}">${item.stock}</span></p>
+                    <label for="${item.name}-quantity">Quantity:</label>
+                    <span id="${item.name}-quantity">0</span>
+                    <button onclick="deductItem('${item.name}')">-</button>
+                    <button onclick="addItem('${item.name}')">+</button>
+                    <button onclick="buyItem('${category}', '${item.name}', ${item.price})">Buy</button>
+                `;
+                itemsContainer.appendChild(itemElement);
+            });
+        }
+
+        function addItem(itemName) {
+            const quantityElement = document.getElementById(`${itemName}-quantity`);
+            const currentQuantity = parseInt(quantityElement.textContent);
+            const updatedQuantity = currentQuantity + 1;
+            quantityElement.textContent = updatedQuantity;
+        }
+
+        function deductItem(itemName) {
+            const quantityElement = document.getElementById(`${itemName}-quantity`);
+            const currentQuantity = parseInt(quantityElement.textContent);
+            if (currentQuantity > 0) {
+                const updatedQuantity = currentQuantity - 1;
+                quantityElement.textContent = updatedQuantity;
+            }
+        }
+
+        function buyItem(category, itemName, price) {
+            const quantity = parseInt(document.getElementById(`${itemName}-quantity`).textContent);
+            if (quantity > 0) {
+                const itemIndex = inventory[category].findIndex(item => item.name === itemName);
+                if (itemIndex !== -1 && inventory[category][itemIndex].stock >= quantity) {
+                    inventory[category][itemIndex].stock -= quantity;
+                    updateStock(itemName, inventory[category][itemIndex].stock);
+                    addToReceipt(itemName, price, quantity);
+                } else {
+                    alert("Not enough stock!");
+                }
+            } else {
+                alert("Please select a quantity.");
+            }
+        }
+
+        function updateStock(itemName, newStock) {
+            document.getElementById(`stock-${itemName}`).textContent = newStock;
+        }
+
+        function addToReceipt(itemName, price, quantity) {
+            const receiptItems = document.getElementById("receipt-items");
+            let existingItem = null;
+
+            // Check if the item already exists in the receipt
+            Array.from(receiptItems.children).forEach(item => {
+                if (item.textContent.includes(itemName)) {
+                    existingItem = item;
+                    return;
+                }
+            });
+
+            if (existingItem) {
+                // If the item already exists, update its quantity and total price
+                const itemDetails = existingItem.textContent.split(" - ");
+                const currentQuantity = parseInt(itemDetails[0].split("x")[1].trim());
+                const newQuantity = currentQuantity + quantity;
+                existingItem.textContent = `${itemName} x${newQuantity} - $${price * newQuantity}`;
+            } else {
+                // If the item does not exist, create a new entry
+                const item = document.createElement("li");
+                item.textContent = `${itemName} x${quantity} - ₱${price * quantity}`;
+                receiptItems.appendChild(item);
+            }
+
+            // Update the total price
+            updateTotal(price * quantity);
+            document.getElementById("receipt").style.display = "block";
+        }
+
+        function updateTotal(price) {
+			const totalElement = document.getElementById("total");
+			const currentTotal = parseFloat(totalElement.textContent); // Remove the ₱ sign
+			const newTotal = currentTotal + price;
+			totalElement.textContent = newTotal.toFixed(2);
+}
+    </script>
+</body>
+</html>
