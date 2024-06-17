@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Resume </title>
+	<h1>RESUME</h1>
+	
+</head>
+<body style = "background-color:lightblue;">
+<img src="D:\BSIT 3-1\ITEC87\1693369136859.jpg" style="float: right; height:150px; width:150px;">
+<h2> Ize Josh Zier P. De Silva </h2> 
+<p> Home Address: <b> &nbsp &nbsp Pasong Langka, Silang, Cavite </b></p>  
+<p> Email Address: <b> &nbsp &nbsp desilvaizejoshzier@gmail.com </b></p>
+<p> Contact Number: <b>  09219328996 </b> </p><br>
+
+<hr>
+<h3> OBJECTIVE: </h3>
+<p><i> To secure a position in web development where my skills and </i></p>
+<p><i> passion for this field can be harnessed and advance both personal and company objectives </i></p>
+<hr>
+
+
+<h3> PERSONAL INFORMATION: </h3>
+<p> DATE OF BIRTH:&nbsp &nbsp<b>December 19, 2002</b></p>
+<p> AGE: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <b>21 years old </b></p>
+<p> SEX: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <b> Male </b> </p>
+<p> RELIGION: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b> Roman Catholic </b> </p> 
+<p> CIVIL STATUS:  &nbsp &nbsp &nbsp <b> Single </b> </p>
+<p> FATHER'S NAME: <B> &nbsp Eduardo Paulino De Silva </b> </p>
+<p> MOTHER'S NAME: <b> Melanie Nocon Poblete</b> </p>
+
+
+<hr>
+<h3> EDUCATIONAL BACKGROUND: </h3>
+<p> College: &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp <b> City College Of Tagaytay  </b> </p>
+<p> Senior High School: <b> Tagaytay City Science National High School</b> </p>
+<p> Junior High School: <b> Tagaytay City Science National High School</b> </p>
+<p> Elementary:&nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp &nbsp <b> Tagaytay City Central School </b></p>
+<hr>
+
+<h3>SKILLS:</h3>
+<p> <b><li> Network Security </b> </p>
+<p> <b><li> Interpersonal Skills</b> </p>
+<p> <b><li> Time Management </b> </p>
+<hr>
+
+<h3> WORKING EXPERIENCE: </h3>
+<p> <b> <li> Software Developer </p>
+<p> <b> <li> Web Developer </p>
+<p> <b> <li> Network Engineer </p>
+
+<hr>
+<h3> CHARACTER REFERERENCES: </h3>
+<p> Melvin Poblete </p>
+<p> 09338357387 </p>
+<p> Barangay Councilor </p>
+<p> Pasong Langka, Silang, Cavite </p>
+
+
+</body>
+</html>
