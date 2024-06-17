@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('restbg.jpg');
+        }
+        .menu-container {
+            max-width: 700px;
+            max-height: 700px auto;
+            margin: 20px auto;
+            padding: 100px;
+            border-radius: 10px;
+            border: 8px solid #393E46;
+            background-color: #E7E8EA;
+            color: #5D4233;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        .menu-category {
+            border-radius: 10px;
+            border: 3px solid #393E46;
+            padding: 10px;
+            background-color: #EEDDCF;
+            cursor: pointer;
+        }
+        .menu-category:hover {
+            background-color: #F0FBFF;
+        }
+        .menu-items {
+            display: none;
+            margin-top: 10px;
+        }
+        .checkbox-label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .receipt {
+            border: 3px solid #393E46;
+            padding: 10px;
+            margin-top: 20px;
+            color: #5D4233;
+            background-color: #EEDDCF;
+            border-radius: 10px;
+        }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1 style="color: #5D4233"><center>Restaurant Menu</center></h1>
+    <div class="nav-bar">
+      <button class="menu-category" onclick="showCategory('mainDish')">Main Dish</button>
+      <button class="menu-category" onclick="showCategory('vegetable')">Vegetable</button>
+      <button class="menu-category" onclick="showCategory('dessert')">Dessert</button>
+      <button class="menu-category" onclick="showCategory('drinks')">Drinks</button>
+      <button class="menu-category" onclick="showCategory('add_ons')">Add ons</button>
+    </div>
+    
+    <div id="mainDish" class="menu-items">
+      <h2>Main Dish</h2>
+      <img src="Kare-kare.jpg" alt="Kare-Kare" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="mainDishItem" value="Kare-Kare - 350"> Kare-Kare - ₱350 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="adobo.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="mainDishItem" value="Adobo - 150"> Adobo - ₱150 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="menudo.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="mainDishItem" value="Menudo - 150"> Menudo - ₱150 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="porkchop.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="mainDishItem" value="Porkchop - 150"> Porkchop - ₱150 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="sinigang.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="mainDishItem" value="Sinigang - 150"> Sinigang - ₱150 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+    </div>
+
+    <div id="vegetable" class="menu-items">
+      <h2>Vegetable</h2>
+      <img src="ampalaya.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="vegetableItem" value="Ampalaya - 100"> Ampalaya - ₱100 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="tofu.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="vegetableItem" value="Ginisang Toge - 80"> Ginisang Toge - ₱80 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="chopsuey.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="vegetableItem" value="Chopsuey - 90"> Chopsuey - ₱90 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+    </div>
+
+    <div id="dessert" class="menu-items">
+      <h2>Dessert</h2>
+      <img src="ice cream.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="dessertItem" value="Ice Cream - 150"> Ice Cream - ₱150 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="cake.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="dessertItem" value="Cake - 350"> Cake - ₱350 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="cheese.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="dessertItem" value="Cheese Cake - 100"> Cheese Cake - ₱100 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+    </div>
+
+    <div id="drinks" class="menu-items">
+      <h2>Drinks</h2>
+      <img src="water.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="drinksItem" value="Water - 30"> Water - ₱30 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="coke.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="drinksItem" value="Coke - 50"> Coke - ₱50 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="ice tea.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="drinksItem" value="Iced Tea - 45"> Iced Tea - ₱45 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+    </div>
+
+    <div id="add_ons" class="menu-items">
+      <h2>Add Ons</h2>
+      <img src="katsup.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="add_onsItem" value="Catsup - 20"> Catsup - ₱20 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="atsara.jpg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="add_onsItem" value="Atsara - 70"> Atsara - ₱70 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+      <img src="rice.jpeg" alt="" width="200" height="200">
+      <label class="checkbox-label"><input type="checkbox" name="add_onsItem" value="Rice - 30"> Rice - ₱30 <input type="number" min="1" value="1" class="quantity" style="width: 50px;"></label><br>
+    </div>
+
+    <div class="receipt">
+      <label>Total Amount: ₱<span id="totalAmount">0</span></label>
+      <button onclick="generateReceipt()">Generate Receipt</button>
+      <div id="receiptDetails"></div>
+    </div>
+  </div>
+	<a href="E:\De Silva_HTML_Project\index.html" class="btn btn-primary" style="background-color: brown; color: white">Back to Home</a>
+  <script>
+    function showCategory(category) {
+      const items = document.getElementById(category);
+      const otherCategories = document.querySelectorAll('.menu-items:not(#' + category + ')');
+
+      otherCategories.forEach(category => {
+        category.style.display = 'none';
+      });
+
+      items.style.display = items.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function calculateTotalAmount() {
+      let totalAmount = 0;
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+
+      checkboxes.forEach((checkbox) => {
+        const quantity = checkbox.parentElement.querySelector('.quantity').value;
+        const valueParts = checkbox.value.split(' - ');
+        if (valueParts.length === 2) {
+          const amount = parseFloat(valueParts[1]);
+          if (!isNaN(amount)) {
+            totalAmount += amount * quantity;
+          }
+        }
+      });
+
+      document.getElementById('totalAmount').textContent = totalAmount.toFixed(2);
+    }
+
+    function generateReceipt() {
+      const receiptDetails = document.getElementById('receiptDetails');
+      receiptDetails.innerHTML = '';
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+
+      checkboxes.forEach((checkbox) => {
+        const quantity = checkbox.parentElement.querySelector('.quantity').value;
+        const item = checkbox.value.split(' - ')[0];
+        const price = parseFloat(checkbox.value.split(' - ')[1]);
+
+        receiptDetails.innerHTML += `<p>${item} - ₱${price} x ${quantity} = ₱${(price * quantity).toFixed(2)}</p>`;
+      });
+    }
+
+    document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
+      checkbox.addEventListener('change', calculateTotalAmount);
+    });
+
+    document.querySelectorAll('.quantity').forEach((input) => {
+      input.addEventListener('input', calculateTotalAmount);
+    });
+  </script>
+</body>
+</html>
